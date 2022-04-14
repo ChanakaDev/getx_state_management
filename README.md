@@ -7,7 +7,7 @@ A Flutter state management project with GetX and MVC architecture.
 MVC Architecture:
 
 - View: This is an entity that creates a request and receives the response and visualize the interface.
-- Controller: This is the entity that sits in between view and model. This is an entity that receives the request of View and give the response back.
+- Controller: This is the entity that sits in between view and model. This is an entity that receives the request of View and give the response back. (Controllers are based on the functionality, not on the page)
 - Model: Deals with all the rest of the works. That means processing the request, dealing with data, creating objects, calling external API, accessing db etc.
 
 - From a system if you remove controllers and views what remains is Model. So Model is not just data model or business logic model. It may also consists of the other parts like security, validation, processing, filtering etc.
