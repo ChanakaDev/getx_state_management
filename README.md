@@ -17,3 +17,11 @@ References:
 - [Youtube: CodX](https://www.youtube.com/watch?v=ZnevdXDH25Q&list=PL3wGb9_yWsvJ-QUBbkXvhjhQFRsb4wqbY&index=2)
 - [Package: GetX](https://pub.dev/packages/get)
 - [StackOverflow: MVC](https://stackoverflow.com/questions/4221632/mvc-what-is-a-model)
+
+### Screenshots:
+<table>
+    <tr>
+        <td> <img src="./assets/cart1.png" alt="cart image 1" width="200"/> </td>
+        <td> <img src="./assets/cart2.png" alt="cart image 2" width="200"/> </td>
+    </tr>
+</table>
