@@ -1,16 +1,19 @@
-# getx_state_management
+# Flutter State Management (with GetX)
 
-A new Flutter project.
+A Flutter state management project with GetX and MVC architecture. 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+MVC Architecture:
 
-A few resources to get you started if this is your first Flutter project:
+- View: This is an entity that creates a request and receives the response and visualize the interface.
+- Controller: This is the entity that sits in between view and model. This is an entity that receives the request of View and give the response back.
+- Model: Deals with all the rest of the works. That means processing the request, dealing with data, creating objects, calling external API, accessing db etc.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- From a system if you remove controllers and views what remains is Model. So Model is not just data model or business logic model. It may also consists of the other parts like security, validation, processing, filtering etc.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+References:
+
+- [Youtube: CodX](https://www.youtube.com/watch?v=ZnevdXDH25Q&list=PL3wGb9_yWsvJ-QUBbkXvhjhQFRsb4wqbY&index=2)
+- [Package: GetX](https://pub.dev/packages/get)
+- [StackOverflow: MVC](https://stackoverflow.com/questions/4221632/mvc-what-is-a-model)
