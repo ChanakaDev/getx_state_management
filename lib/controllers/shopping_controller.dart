@@ -32,19 +32,19 @@ class ShoppingController extends GetxController {
           price: 30,
           productDescription: 'some description about product',
           productImage: 'abd',
-          productName: 'FirstProd'),
+          productName: 'Banana'),
       Product(
           id: 2,
           price: 40,
           productDescription: 'some description about product',
           productImage: 'abd',
-          productName: 'SecProd'),
+          productName: 'Apple'),
       Product(
           id: 3,
           price: 49.5,
           productDescription: 'some description about product',
           productImage: 'abd',
-          productName: 'ThirdProd'),
+          productName: 'Mango'),
     ];
 
     // (*) give data to the observable instance
